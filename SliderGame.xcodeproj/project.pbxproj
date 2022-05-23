@@ -11,6 +11,7 @@
 		2C4AD7AC283BB0120029C2EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AD7AB283BB0120029C2EF /* ContentView.swift */; };
 		2C4AD7AE283BB0140029C2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AD7AD283BB0140029C2EF /* Assets.xcassets */; };
 		2C4AD7B1283BB0140029C2EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4AD7B0283BB0140029C2EF /* Preview Assets.xcassets */; };
+		2C4AD7B8283BB2F20029C2EF /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AD7B7283BB2F20029C2EF /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2C4AD7AB283BB0120029C2EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C4AD7AD283BB0140029C2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4AD7B0283BB0140029C2EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C4AD7B7283BB2F20029C2EF /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				2C4AD7A9283BB0120029C2EF /* SliderGameApp.swift */,
+				2C4AD7B7283BB2F20029C2EF /* SliderView.swift */,
 				2C4AD7AB283BB0120029C2EF /* ContentView.swift */,
 				2C4AD7AD283BB0140029C2EF /* Assets.xcassets */,
 				2C4AD7AF283BB0140029C2EF /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4AD7B8283BB2F20029C2EF /* SliderView.swift in Sources */,
 				2C4AD7AC283BB0120029C2EF /* ContentView.swift in Sources */,
 				2C4AD7AA283BB0120029C2EF /* SliderGameApp.swift in Sources */,
 			);
