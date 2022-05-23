@@ -10,19 +10,23 @@ import SwiftUI
 
 struct SliderView: UIViewRepresentable {
     @Binding var value: Float
-    var opacityValue: Int
+    let opacityValue: Int
     
     func makeUIView(context: Context) -> UISlider {
         let slider = UISlider()
+        
         slider.value = value
+        slider.thumbTintColor = UIColor.red.withAlphaComponent(calculateOpacity())
+        
         slider.minimumValue = 0
         slider.maximumValue = 100
-        slider.thumbTintColor = UIColor.red.withAlphaComponent(CGFloat(value)/100)
+        
         slider.addTarget(
             context.coordinator,
             action: #selector(Coordinator.sliderValueChanged),
             for: .valueChanged
         )
+        
         return slider
     }
     
